@@ -1,5 +1,6 @@
 import { defineConfig } from 'vite';
 import laravel from 'laravel-vite-plugin';
+import { values } from 'lodash';
 
 export default defineConfig({
     plugins: [
